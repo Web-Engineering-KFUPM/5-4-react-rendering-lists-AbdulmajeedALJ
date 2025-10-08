@@ -23,7 +23,7 @@ return (
 
 
 {/* 🟩 PART B (Anchor): Delete button should call onDelete(task.id) */}
-<button className="ghost" aria-label="Delete task" onClick={onDelete(task.id)} >
+<button className="ghost" aria-label="Delete task" onClick={() => onDelete(task.id)} >
 ✕ 
 </button>
 </li>
